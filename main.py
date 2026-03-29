@@ -70,7 +70,7 @@ if __name__ == "__main__":
     parser.add_argument('--seed', type=int, default=42)
     parser.add_argument('--epoch', type=int)
     parser.add_argument('--device', type=str, default='auto')
-    parser.add_argument('--eval_each_epoch', type=str, default='True')
+    parser.add_argument('--eval_each_epoch', type=str, default='False')
     args = parser.parse_args()
 
     diversity = True if args.diversity == 'True' else False
