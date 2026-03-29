@@ -1,0 +1,15 @@
+name: drl
+channels:
+  - defaults
+dependencies:
+  - python=3.10.19
+  - pip=25.3
+  - setuptools=80.9.0
+  - wheel=0.45.1
+  - numpy=1.26.4
+  - pandas=2.3.3
+  - scipy=1.15.3
+  - scikit-learn=1.7.2
+  - pip:
+      - torch==2.9.1
+      - ipdb==0.13.13

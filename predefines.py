@@ -1,0 +1,130 @@
+epochs = {
+ 'Cardiotocography': 26,
+ 'Hepatitis': 66, # update from 200 to 66
+ 'Parkinson': 4, # update from 20 to 4
+ 'SpamBase': 32, # update from 200 to 32
+ 'WDBC': 20,
+ 'WPBC': 89, # update from 100 to 89
+ 'Wilt': 100,
+ 'abalone': 200,
+ 'amazon': 26, # update from 40 to 26
+ 'annthyroid': 92, # update from 100 to 92
+ 'arrhythmia': 80, # update from 98 to 80
+ 'breastw': 20,
+#  'cardio': 20,
+ 'cardio': 1,
+ 'census': 4, # update from 40 to 4
+ 'comm.and.crime': 200,
+ 'cover': 200,
+ 'fault': 200,
+ 'glass': 34,
+ 'imgseg': 200,
+ 'ionosphere': 20,
+ 'letter': 200,
+ 'lympho': 3, # update from 40 to 3
+ 'mammography': 22, # update from 40 to 22
+ 'mnist': 20,
+ 'musk': 20, 
+ 'optdigits': 400, # update from 200 to 100
+ 'pendigits': 10, # update from 25 to 10
+ 'pima': 37,
+ 'satellite': 200,
+ 'satimage-2': 26, 
+ 'shuttle': 82, # update from 20 to 82
+ 'speech': 137,
+ 'thyroid': 14, # update from 20 to 14
+ 'vertebral': 20,
+ 'vowels': 200,
+ 'wbc': 16,
+ 'wine': 200,
+ 'yeast': 40,
+ 'backdoor': 185, # update from 200 to 185 
+ 'fraud': 8, # update from 200 to 8
+ 'campaign': 100, # update from 200 to 100
+ }
+
+processors = {'Cardiotocography': 'none',
+ 'Hepatitis': 'standard',
+ 'Parkinson': 'standard',
+ 'SpamBase': 'standard',
+ 'WDBC': 'standard',
+ 'WPBC': 'none',
+ 'Wilt': 'standard',
+ 'abalone': 'none',
+ 'amazon': 'standard',
+ 'annthyroid': 'standard',
+ 'arrhythmia': 'none',
+ 'breastw': 'none',
+ 'cardio': 'none',
+ 'census': 'standard', # update from none to standard
+ 'comm.and.crime': 'none',
+ 'cover': 'none',
+ 'fault': 'standard',
+ 'glass': 'standard',
+ 'imgseg': 'none',
+ 'ionosphere': 'standard',
+ 'letter': 'standard',
+ 'lympho': 'standard',
+ 'mammography': 'none', 
+ 'mnist': 'none',
+ 'musk': 'standard',
+ 'optdigits': 'none', 
+ 'pendigits': 'standard',
+ 'pima': 'none',
+ 'satellite': 'standard',
+ 'satimage-2': 'standard',
+ 'shuttle': 'standard',
+ 'speech': 'quantile',
+ 'thyroid': 'standard',
+ 'vertebral': 'standard',
+ 'vowels': 'standard',
+ 'wbc': 'standard',
+ 'wine': 'none',
+ 'yeast': 'none',
+ 'backdoor': 'standard',
+ 'fraud': 'standard',
+ 'campaign': 'none',
+ }
+
+com_ratios = {'Cardiotocography': '0.1,0.06',
+ 'Hepatitis': '0.01,0.02', # 0.7,0.1 to 0.01,0.02
+ 'Parkinson': '0.1,0.06',
+ 'SpamBase': '0.1,0.06',
+ 'WDBC': '0.1,0.06',
+ 'WPBC': '0.1,1.0',
+ 'Wilt': '0.1,0.06',
+ 'abalone': '0.1,0.06',
+ 'amazon': '0.1,0.06',
+ 'annthyroid': '0.7,0.1',
+ 'arrhythmia': '0.1,0.06',
+ 'breastw': '0.1,0.06',
+ 'cardio': '0.1,0.3',
+ 'census': '0.2,0.4',
+ 'comm.and.crime': '0.1,0.06',
+ 'cover': '0.1,0.06',
+ 'fault': '0.1,0.06',
+ 'glass': '0.1,0.4',
+ 'imgseg': '0.1,0.06',
+ 'ionosphere': '0.9,0.3',
+ 'letter': '0.1,0.06',
+ 'lympho': '0.1,0.3',
+ 'mammography': '0.3,0.8',
+ 'mnist': '0.1,0.06',
+ 'musk': '0.1,0.06',
+ 'optdigits': '0.1,0.06',
+ 'pendigits': '0.5,0.1',
+ 'pima': '0.1,0.06',
+ 'satellite': '0.3,0.9',
+ 'satimage-2': '0.1,0.06',
+ 'shuttle': '0.1,0.06',
+ 'speech': '0.6,0.5',
+ 'thyroid': '0.1,0.06',
+ 'vertebral': '0.5,0.6',
+ 'vowels': '0.1,0.06',
+ 'wbc': '0.1,0.06',
+ 'wine': '0.1,0.06',
+ 'yeast': '0.8,0.9',
+ 'backdoor': '0.1,0.06',
+ 'fraud': '0.1,0.06',
+ 'campaign': '0.9,0.2',
+}
